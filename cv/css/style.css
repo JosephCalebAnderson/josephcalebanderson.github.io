@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+h1{
+    font-size: xx-large;
+}
+h2{
+    font-size: x-large;
+}
+.top {
+    position: relative;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    height: 800px;
+    padding-top: 400px;
+    margin: 0;
+    font-family: "Audiowide";
+}
+.star1 {
+    position: absolute;
+    top: 60%;
+    right: 15%;
+}
+.star2 {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+.skyline{
+    position: absolute;
+    bottom: 0%;
+    left: 0%
+}
+.middle {
+    height: 1800px;
+    background-color: #111111;
+    text-align: center;
+    color: #bdc1c6;
+    font-family: "Trirong";
+}
+.headshot{
+    border-radius: 50%;
+    margin: 50px;
+}
+.bottom {
+    background-color: rgb(170, 170, 170);
+    margin: 0;
+    text-align: center;
+}
+.row1{
+    width: 75%;
+    margin: 75px auto;
+}
+.row2{
+    width: 75%;
+    margin: auto;
+    height: 200px;
+}
+.row3{
+    width: 75%;
+    margin: auto;
+}
+.column{
+    display: inline-block;
+}
+dd.left{
+    float: left;
+    width: 50%;
+}
+.right{
+    width: 50%;
+}
+ul {
+    list-style: none;
+}
+.card {
+    box-shadow: 0 12px 24px 0 rgba(0,0,0,0.4);
+    border-radius: 5px;
+    width: 40%;
+    padding: 25px;
+    margin: 75px auto;
+}
+.card:hover {
+    box-shadow: 0 24px 48px 0 rgba(0,0,0,0.8);
+    transition: 0.5s;
+}
+hr {
+    border-top: 3px solid  rgb(215, 205, 127);
+    border-bottom: 3px solid  rgb(255, 255, 255);
+    border-right: none;
+    border-left: none;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    width: 50%;
+}
+hr.end {
+    border-top: 8px groove rgb(170, 170, 170);
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+a{
+    color: rgb(215, 205, 127);
+    text-decoration: none;
+}
+a:hover{
+    color: #ffffff;
+}
+.button{
+    background-color: rgb(215, 205, 127);
+    color: #000000;
+    padding: 10px;
+    border-radius: 10%;
+}
+.copyright{
+    font-size: x-small;
+}
+.contact{
+    background-color: rgb(216, 216, 216);
+    font-family: "Audiowide";
+    height: 500px;
+}
