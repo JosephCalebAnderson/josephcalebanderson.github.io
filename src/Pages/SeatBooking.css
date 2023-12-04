@@ -1,0 +1,135 @@
+
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #181821;
+}
+
+h1 {
+  font-family: 'DM Sans', sans-serif;
+  color: #ffffff;
+}
+
+h3 {
+  font-family: 'DM Sans', sans-serif;
+  color: #ffffff;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.bookingContainer {
+  margin: 0px auto 100px auto;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.selectSeatsTitle {
+  color: #FFFFFF;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 20px;
+  align-self: center;
+  margin: 20px 0px 0px 0px;
+}
+
+.screen-svg {
+  width: 400px;
+  align-self: center;
+  margin: 20px 0px 0px 0px;
+}
+
+.screenLabel {
+  color: #FFFFFF;
+  align-self: center;
+  font-size: 10px;
+ 
+}
+.seating-error-message {
+  top: 100%;
+    left: 0;
+    width: 18%;
+    padding: 0.5rem;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    transform: translate(200%, 500%);
+}
+.seat {
+  height: 25px;
+  width: 25px;
+  background-color: #FFFFFF;
+  border-radius: 3px;
+  margin: 5px 5px 5px 5px;
+}
+
+.selectedSeat {
+  background-color: #BE123C;
+}
+
+.takenSeat {
+  background-color: #4F4F52;
+}
+
+.seats {
+  align-self: center;
+  margin: 30px 0px 0px 0px;
+  width: 380px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.legend {
+  display: flex;
+  align-self: center;
+  margin: 10px 0px 10px 0px;
+}
+
+.occupancy {
+  margin: 10px 15px 10px 5px;
+}
+
+.occupancyIndicator {
+  margin: 10px 5px 10px 5px;
+}
+
+.statement {
+  align-self: center;
+  margin: 10px 0px 10px 0px;
+}
+
+.statement-two {
+  align-self: center;
+  margin: 10px 0px 10px 0px;
+}
+
+.bookingNextButton {
+  align-self: center;
+  border: none;
+  border-radius: 5px;
+  background: #BE123C;
+  color: #FFFFFF;
+  height: 28px;
+  width: 200px;
+  font-size: 12px;
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  margin: 20px 0px 0px 0px;
+}
+
+.bookingNextButton:hover {
+  background-color: #FF3E63;
+}
+
+
+

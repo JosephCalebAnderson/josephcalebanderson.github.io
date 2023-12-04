@@ -1,0 +1,246 @@
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #181821;
+}
+
+h1 {
+  font-family: 'DM Sans', sans-serif;
+  color: #ffffff;
+}
+
+h3 {
+  font-family: 'DM Sans', sans-serif;
+  color: #ffffff;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.nobold { 
+  font-weight: normal;
+}
+
+.ticketWrap {
+  display: flex;
+  min-width: fit-content;
+}
+
+.ticketContent {
+  margin: 0px 0px 0px 100px;
+  display:flex;
+  flex-direction: column;
+  width: 800px;
+}
+
+.dateCarousel {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0px 30px 0px;
+  align-items: center;
+}
+
+.dateCarouselBoxes {
+  display: flex;
+  flex-direction: row;
+}
+
+.leftChevronButton {
+  background: none;
+  border: none;
+}
+
+.leftChevron {
+  height: 30px;
+}
+
+.rightChevronButton {
+  background: none;
+  border: none;
+}
+
+.rightChevron {
+  height: 30px;
+}
+
+.dateBox {
+  height: 110px;
+  width: 80px;
+  background-color: #4F4F52;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 0px 5px 0px 5px;
+  box-shadow: 0px -4px 10px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.dateBox:hover {
+  background-color: #7f7f7f;
+}
+
+
+.day {
+  font-size: 18px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.month {
+  font-size: 12px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.date {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'DM Sans', sans-serif;
+  padding: 5px 0px 5px 0px;
+}
+
+.ticketContentHeader {
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 40px 0px 5px 0px;
+}
+
+.firstticketheader {
+  padding: 20px 0px 5px 0px;
+}
+
+#movieTimes {
+  margin: 0px 0px 0px 0px;
+}
+
+.selectTimeButton {
+  border: none;
+  border-radius: 5px;
+  background: #4F4F52;
+  color: #FFFFFF;
+  width: 90px;
+  height: 30px;
+  font-size: 14px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  margin: 10px 2.5px 10px 2.5px;
+}
+
+.selectTimeButton:hover {
+  background-color: #7f7f7f;
+}
+
+#numberOfTicketsBox {
+  display: grid;
+  grid-template-columns: [startCol] 150px [col2] 30px [col3] 30px [col4] 30px [endCol];
+  grid-template-rows: [startRow] 25px [row2] auto [endRow];
+  height: 50px;
+  margin: 20px 0px 10px 0px;
+}
+
+.ticketType {
+  font-size: 18px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.ticketPrice {
+  font-size: 14px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.decreaseTicketButton {
+  background: none;
+  border: none;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  justify-self: center;
+  align-self: center;
+}
+
+.decreaseTicket {
+  height: 18px;
+}
+
+.numberOfTickets {
+  font-weight: 400;
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  justify-self: center;
+  align-self: center;
+}
+
+.increaseTicketButton {
+  background: none;
+  border: none;
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  justify-self: center;
+  align-self: center;
+}
+
+.increaseTicket {
+  height: 18px;
+}
+
+.ticketNextButton {
+  border: none;
+  border-radius: 5px;
+  background: #BE123C;
+  color: #FFFFFF;
+  height: 28px;
+  width: 200px;
+  font-size: 13px;
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  margin: 30px 2.5px 70px 0px;
+}
+
+.ticketNextButton:hover {
+  background-color: #FF3E63;
+}
+
+.ticketsOverlay {
+  background-color: #D9D9D9;
+  border-radius: 7px;
+  height: 375px;
+  width: 250px;
+  overflow: hidden;
+  margin: 0px 100px 0px 50px;
+}
+
+.ticketsMoviePoster {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+}
+
+.tickets-error-message {
+  top: 100%;
+    left: 0;
+    width: 18%;
+    padding: 0.5rem;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    transform: translate(0%, -100%);
+}

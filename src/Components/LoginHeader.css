@@ -1,0 +1,33 @@
+
+.login-header {
+    height: 75px;
+    width: 100%;
+    background-color: none;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;    
+    top: 0;
+    z-index: 9;
+  }
+
+  .login-head1 {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .login-headerLogo {
+    height: 44px; 
+    align-self: center;
+    padding: 15px;
+  }
+
+  .login-webName {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    align-self: center;
+  }

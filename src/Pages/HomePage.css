@@ -1,0 +1,283 @@
+
+.showings {
+    height: 105px;
+    margin-left: 60px;
+    margin-top: 130px;
+    width: 400px
+  }
+
+  .showingsButton {
+    color: #ffffff;
+    background-color: #181821;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    border: none;
+    margin-top: 20px;
+  }
+
+  .showingsButton:first-of-type {
+    border-bottom: 2px solid white;
+    font-weight: bold;
+  }
+
+
+  .showingsButton:hover {
+    cursor: pointer;
+  }
+
+  
+  .titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #181821;
+    justify-content: center;
+  }
+  
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    align-self: center;
+    justify-content: left;
+  }
+  
+  .movieOverview {
+    height: 400px;
+    width: 200px;
+    margin: 0px 20px 20px 20px; 
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+    justify-content: space-between;
+  }
+  
+  .movieImage {
+    height: 350px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .ratingboxhome {
+    border: 1.5px solid #FFF;
+    border-radius: 2px;
+    padding: 0px 5px 0px 5px;
+    position: absolute;
+    right: 20px;
+    bottom: 22px;
+  }
+
+  .rating-on-homepage {
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+  }
+
+  .movieTitleDiv {
+    margin: 10px 0px 10px 0px;
+  }
+
+  .homePageMovieTitle {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    color: #FFFFFF;
+    width: 100%;
+  }
+  
+  .trailerButtonDiv {
+    margin: 0px;
+  }
+  
+  .trailerButton {
+    width: 85px;
+    height: 26px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 5px;
+    background: #BE123C;
+    font-family: 'DM Sans', sans-serif;
+    color: #ffffff;
+  }
+
+  .trailerButton:hover {
+    background: #a21135;
+  }
+
+  .trailerContainer {
+    width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+  }
+  
+  .window-for-trailer {
+   height: 400px;
+   width: 600px;
+   border: none;
+  }
+
+
+  .search-head1, .search-head2, .search-head3 {
+    flex: 1
+  }
+
+
+  .search-head2{
+    align-self: center;
+  }
+
+  .search-searchContainer {
+    display: flex;
+    flex-direction: row;
+    height: 36px;
+    width: 550px;
+    border: 2px solid #D9D9D9;
+    border-radius: 5px;
+    background-color: #181821;
+    align-self: center;
+    margin: 25px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 11%;
+    z-index: 10;
+    transform: translate(-50%, 0%);
+  }
+
+  .search-filter-div {
+      width: 90px;
+      height: 36px;
+      border-radius: 3px 0 0 3px;
+      background: #4F4F52; 
+      border-right: 1px solid #D9D9D9;
+  }
+
+  #filteroptions {
+    width: auto;
+    padding: 0px 4px 0px 4px;
+    height: 36px;
+    background: none;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background-color: #181821;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  #search-searchbar {
+    flex: 1;
+    height: 20px;
+    width: auto;
+    border: none;
+    align-self: center;
+    background: none;
+    color: #ffffff;
+    padding-left: 10px;
+    font-family: 'DM Sans', sans-serif; 
+  }
+
+  #search-searchbar:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    }
+
+  #search-searchbar:focus:hover {
+    outline: none;
+    box-shadow: none;
+    border:none;
+    }
+
+  #search-searchIcon {
+    flex: 0;
+    height: 20px;
+    align-self: center;
+    padding: 10px;
+    justify-content: flex-end;
+  }
+
+  .search-head3 {
+    width: 300px;
+    align-self: center;
+    display:flex;
+    justify-content: flex-end;
+    padding: 15px;
+  }
+
+  .search-hello {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    text-align: right;
+    padding: 15px;
+  }
+
+  .search-menuButton {
+    background: none;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+    border: none;
+    align-self: center;
+    cursor: pointer;
+    margin: 0px 5px 0px 0px;
+  }
+
+  .search-menuButtonImage {
+    width: 36px;
+    height: 36px;
+  }
+
+  .results-ul-list {
+    list-style: none;
+  }
+
+  .homepage-error-message {
+    top: 100%;
+    left: 0;
+    width: 11%;
+    padding: 0.5rem;
+    background-color: #f8d7da;
+    position: relative;
+    z-index: 1;
+    margin-top: 50px;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    transform: translate(360%, 400%);
+  }
+
+  .search-results-header {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
+  }
+
+  .handle-reload-button {
+    width: 85px;
+    height: 36px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 5px;
+    background: #BE123C;
+    font-family: 'DM Sans', sans-serif;
+    color: #ffffff;
+    transform: translate(0%, 20%);
+  }
+
+  .handle-reload-button:hover {
+    background: #a21135;
+  }

@@ -1,0 +1,110 @@
+.confirmationTopPart {
+    width: 500px;
+    padding-top: 120px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.confirmationCheckMark {
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    padding-bottom: 10px;
+}
+
+.confirmThankYou {
+    font-family: 'DM Sans', sans-serif;
+    color: #FFFFFF;
+    align-self: center;
+    font-size: 32px;
+}
+
+.confirmSeeYou {
+    font-family: 'DM Sans', sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    align-self: center;
+    font-size: 18px;
+    padding: 10px 0px 20px 0px;
+}
+
+.confirmBookingNum {
+    font-family: 'DM Sans', sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    align-self: center;
+    font-size: 13.5px;
+    padding: 10px 0px 20px 0px;
+}
+
+.underlineBookingNum {
+    text-decoration: underline;
+}
+
+.confirmationBottomPart {
+    width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.confirmSeatSelection {
+    font-family: 'DM Sans', sans-serif;
+    color: #CFCECE;
+    font-weight: 400;
+    font-size: 13px;
+    align-self: center;
+}
+
+.confirmPrice {
+    font-family: 'DM Sans', sans-serif;
+    color: #CFCECE;
+    font-weight: 400;
+    font-size: 13px;
+    align-self: center;
+    margin: 10px 0px 0px 0px;
+}
+
+.boldOrderPrice {
+    font-family: 'DM Sans', sans-serif;
+    color: #CFCECE;
+    font-weight: bold;
+    font-size: 13px;
+    align-self: center;
+    margin: 10px 0px 0px 0px;
+}
+
+.confirmSentToEmail {
+    font-family: 'DM Sans', sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    align-self: center;
+    margin: 50px 0px 40px 0px;
+}
+
+.confirmBackToHomeButton {
+    border: none;
+    border-radius: 5px;
+    background: #BE123C;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    height: 28px;
+    width: 300px;
+    align-self: center;
+    margin: 10px 0px 100px 0px;
+    transform: background 0.2s;
+}
+
+.confirmBackToHomeButton:hover {
+    background: #FF3E63;
+}
+
+.confirmBackToHomeButton:active {
+    background: #BE123C;
+}

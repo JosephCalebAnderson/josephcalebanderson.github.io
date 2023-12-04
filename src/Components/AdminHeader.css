@@ -1,0 +1,107 @@
+
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: #181821;
+  }
+
+  h1 {
+    font-family: 'DM Sans', sans-serif;
+    color: #ffffff;
+  }
+  
+  h3 {
+    font-family: 'DM Sans', sans-serif;
+    color: #ffffff;
+  }
+  
+  p {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 13px;
+  }
+  
+/* Header Content */
+
+  .admin-header {
+    height: 75px;
+    width: 100%;
+    background-color: #323239;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;    
+    top: 0;
+    z-index: 9;
+  }
+
+  .admin-head1, .admin-head2, .admin-head3 {
+    flex: 1
+  }
+
+  .admin-head1 {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .admin-headerLogo {
+    height: 44px; 
+    align-self: center;
+    padding: 15px;
+  }
+
+  .admin-webName {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    align-self: center;
+  }
+
+  .admin-head2{
+    align-self: center;
+  }
+
+  .admin-searchContainer {
+    height: 36px;
+    background-color: #323239;
+    align-self: center;
+    margin: 25px;
+  }
+
+  .admin-head3 {
+    width: 300px;
+    align-self: center;
+    display:flex;
+    justify-content: flex-end;
+    padding: 15px;
+  }
+
+  .admin-hello {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    text-align: right;
+    padding: 15px;
+  }
+
+  .admin-menuButton {
+    background: none;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+    border: none;
+    align-self: center;
+    cursor: pointer;
+    margin: 0px 5px 0px 0px;
+  }
+
+  .admin-menuButtonImage {
+    width: 36px;
+    height: 36px;
+  }

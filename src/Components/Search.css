@@ -1,0 +1,121 @@
+
+  .search-header {
+    height: 75px;
+    width: 100%;
+    background-color: #323239;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;    
+    top: 0;
+    z-index: 9;
+  }
+
+  .search-head1, .search-head2, .search-head3 {
+    flex: 1
+  }
+
+  .search-head1 {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .search-headerLogo {
+    height: 44px; 
+    align-self: center;
+    padding: 15px;
+  }
+
+  .search-webName {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    align-self: center;
+  }
+
+  .search-head2{
+    align-self: center;
+  }
+
+  .search-searchContainer {
+    display: flex;
+    flex-direction: row;
+    height: 36px;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    background-color: #323239;
+    align-self: center;
+    margin: 25px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #search-searchbar {
+    flex: 1;
+    height: 20px;
+    width: auto;
+    border: none;
+    align-self: center;
+    background: none;
+    color: #ffffff;
+    padding-left: 10px;
+    font-family: 'DM Sans', sans-serif; 
+  }
+
+  #search-searchbar:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    }
+
+  #search-searchbar:focus:hover {
+    outline: none;
+    box-shadow: none;
+    border:none;
+    }
+
+  #search-searchIcon {
+    flex: 0;
+    height: 20px;
+    align-self: center;
+    padding: 10px;
+    justify-content: flex-end;
+  }
+
+  .search-head3 {
+    width: 300px;
+    align-self: center;
+    display:flex;
+    justify-content: flex-end;
+    padding: 15px;
+  }
+
+  .search-hello {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    text-align: right;
+    padding: 15px;
+  }
+
+  .search-menuButton {
+    background: none;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+    border: none;
+    align-self: center;
+    cursor: pointer;
+    margin: 0px 5px 0px 0px;
+  }
+
+  .search-menuButtonImage {
+    width: 36px;
+    height: 36px;
+  }
+
+  .results-ul-list {
+    list-style: none;
+  }

@@ -1,0 +1,221 @@
+
+
+  .edit-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    gap: 0.7rem;
+  }
+  
+  .profile-form-header {
+    font-size: 24px;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 3000;
+    line-height: 24px; 
+    font-family: 'DM Sans', sans-serif;
+  }
+  
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .column-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 600px; 
+    margin-top: 20px;
+    
+  }
+  
+  .user-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px;
+    white-space: nowrap;
+  }
+  
+  .card-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px;
+  }
+
+  .billing-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px;
+  }
+
+  .profile-submit-button {
+    width: 30%;
+    transform: translate(2%, 0%);
+    background-color: #BE123C;
+    border-radius: 5px;
+    font-family: DM Sans;
+    color: white;
+    border: none;
+    transition: background 0.2s;
+  }
+
+  .profile-submit-button:hover {
+    cursor: pointer;
+    background-color: #8A0B2A;
+  }
+
+  .editprof-error-message {
+    top: 100%;
+    left: 0;
+    width: 18%;
+    padding: 0.5rem;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    transform: translate(7%, -54%);
+  }
+  .profile-submit-button:active {
+    background-color: #8A0B2A;
+  }
+  
+  .input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px; 
+  }
+  
+  .input-container {
+    flex-basis: 48%; 
+    width: 50%; 
+  }
+  
+  .input-container label {
+    display: block; 
+    width: 5;
+  }
+
+ .profile-input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+    caret-color: white;
+  }
+
+  .card-subheader, .billing-subheader, .user-subheader {
+    font-size: 20px;
+    font-weight: 800;
+    margin-right: 120px;
+    white-space: nowrap;
+  }
+
+  input {
+    color: #FFF;
+  }
+  
+  .add-card-button {
+    width: 60%;
+    margin-top: 10px;
+    margin-left: 0px;
+    background-color: #BE123C;
+    border-radius: 5px;
+    font-family: DM Sans;
+    color: white;
+    border: none;
+    transition: background 0.2s;
+  }
+
+  .add-card-button:hover {
+    cursor: pointer;
+    background-color: #8A0B2A;
+  }
+
+  .add-card-button:active {
+    background-color: #8A0B2A;
+  }
+
+  .add-billing-button {
+    width: 60%;
+    margin-top: 10px;
+    margin-left: 0px;
+    background-color: #BE123C;
+    border-radius: 5px;
+    font-family: DM Sans;
+    color: white;
+    border: none;
+    transition: background 0.2s;
+  }
+
+  .add-billing-button:hover {
+    cursor: pointer;
+    background-color: #8A0B2A;
+  }
+
+  .add-billing-button:active {
+    background-color: #8A0B2A;
+  }
+
+  .remove-card-button {
+    width: 60%;
+    margin-top: 10px;
+    margin-left: 0px;
+    background-color: #BE123C;
+    border-radius: 5px;
+    font-family: DM Sans;
+    color: white;
+    border: none;
+    transition: background 0.2s;
+  }
+
+  .remove-card-button:hover {
+    cursor: pointer;
+    background-color: #8A0B2A;
+  }
+
+  .remove-card-button:active {
+    background-color: #8A0B2A;
+  }
+
+  .remove-billing-button {
+    width: 60%;
+    margin-top: 10px;
+    margin-left: 0px;
+    background-color: #BE123C;
+    border-radius: 5px;
+    font-family: DM Sans;
+    color: white;
+    border: none;
+    transition: background 0.2s;
+  }
+
+  .remove-billing-button:hover {
+    cursor: pointer;
+    background-color: #8A0B2A;
+  }
+
+  .remove-billing-button:active {
+    background-color: #8A0B2A;
+  }
+
+

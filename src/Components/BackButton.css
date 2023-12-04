@@ -1,0 +1,39 @@
+
+
+.backButtonSection {
+    margin: 100px 40px 30px 100px;
+    border: none;
+    width: 130px;
+    height: 34px;
+  }
+  
+  .arrowLeft {
+    height: 20px;
+  }
+  
+  .backButton {
+    background-color: #BE123C;
+    border-radius: 5px;
+    font-family: DM Sans;
+    width: 101px;
+    height: 34px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    flex-shrink: 0;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 0 0 10px;
+    border: none;
+    transition: background 0.2s;
+  }
+
+  .backButton:hover {
+    background-color: #FF3E63;
+  }
+
+  .backButton:active {
+    background: #8A0B2A;
+  }

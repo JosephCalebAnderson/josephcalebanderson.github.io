@@ -1,0 +1,67 @@
+
+.adminLabel {
+    font-family: 'DM Sans', sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.adminEditShowtimesForm{
+    display: grid;
+    grid-template-columns: repeat(1);
+    grid-template-rows: auto 1fr;
+    grid-gap: 20px;
+    max-width: 800px;
+    margin: 100px auto 100px auto;
+}
+
+.textInput, .dropdown {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    font-family: DM Sans;
+    color: #fff;
+  }
+
+  .dropdown option {
+    background-color: #181821;
+    color: #fff; 
+}
+
+.errorMessage-editShow {
+top: 100%;
+left: 0;
+width: 15%;
+padding: 0.5rem;
+background-color: #f8d7da;
+color: #721c24;
+border: 1px solid #f5c6cb;
+border-radius: 0.25rem;
+font-size: 0.875rem;
+transform: translate(240%, 0%);
+}
+
+  .h3-admin-editshow {
+transform: translate(39%, 20%);
+  }
+  
+
+.adminEditSubmitButton {
+    padding: 10px;
+    margin-top: 20px;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    grid-column: 1 / -1;
+    background-color: #BE123C;
+    justify-self: center;
+    font-family: DM Sans;
+  }
+
+
+

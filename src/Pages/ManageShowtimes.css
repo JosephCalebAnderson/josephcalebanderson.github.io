@@ -1,0 +1,164 @@
+.manage-showings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    gap: 0.7rem;
+    margin: 0px 0px 100px 0px;
+}
+
+body, input, select, textarea {
+    font-family: DM Sans;
+  }
+
+.manageShowingsTitle {
+    font-size: 28px;
+}
+
+.showings-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+    font-family: DM Sans;
+}
+
+
+.showingName {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: DM Sans;
+}
+
+.showingTime {
+    font-size: 14px;
+    font-family: DM Sans;
+}
+
+.showingDate {
+    font-size: 14px;
+    font-family: DM Sans;
+
+}
+
+.showingSeats {
+    font-size: 14px;
+    font-family: DM Sans;
+}
+
+.edit-button, .delete-button {
+    background-color: #ccc;
+    font-family: DM Sans;
+    border: none;
+    border-radius: 3px;
+    color:#181821;
+    margin: 10px 5px 0px 5px;
+    transition: background 0.2s;
+}
+
+.edit-button:hover, .delete-button:hover {
+    background-color: #FF3E63;
+}
+
+.edit-button:active, .delete-button:active {
+    background: #8A0B2A;
+}
+
+.add-showing {
+    background-color: #323239;
+    padding: 18px;
+    border-radius: 5px;
+    width: 464px;
+}
+
+.addShowingLabel {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.addShowingInput, .dropdownManage {
+    width: 420px;
+    padding: 8px;
+    background-color: #323239;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 5px 0px 10px 0px;
+    
+
+}
+
+.error-manage-shows {
+    top: 100%;
+    left: 0;
+    width: 21%;
+    padding: 0.5rem;
+    background-color: #f8d7da;
+    position: relative;
+    z-index: 1;
+    margin-top: 50px;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 0.25rem;
+
+}
+.showingName {
+    font-size: 14px;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 0px 10px 0px;
+
+}
+.addShowingButton {
+    background-color: #ccc;
+    font-family: DM Sans;
+    border: none;
+    border-radius: 3px;
+    color:#181821;
+    padding: 5px 10px 5px 10px;
+    margin: 10px 0px 0px 170px;
+    transition: background 0.2s;
+    transform: translate(-63%, 0%);
+}
+
+.addShowingButton:hover {
+    background-color: #FF3E63;
+}
+
+.addShowingButton:active {
+    background: #8A0B2A;
+}
+
+.addShowingForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.addShowingButton {
+   margin-top: 13px;
+}
+
+
+
+.showing-instance  {
+    background-color: #323239;
+    border-radius: 5px;
+    margin: 20px 0px 20px 0px;
+    padding: 18px;
+
+}

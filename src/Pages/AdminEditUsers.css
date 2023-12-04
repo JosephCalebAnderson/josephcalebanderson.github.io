@@ -1,0 +1,39 @@
+.adminEditUsersForm {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto 1fr;
+    grid-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    margin: 100px auto 100px auto;
+}
+
+.h3-admin {
+    transform: translate(-1%, 0%);
+}
+
+.adminEditSubmitButton {
+    transition: background 0.2s;
+}
+
+.adminEditSubmitButton:hover {
+  background: #FF3E63; 
+}
+
+.adminEditSubmitButton:active {
+  background: #8A0B2A;
+}
+
+.errorMessage-admineditu {
+    top: 100%;
+    left: 0;
+    width: 27%;
+    padding: 0.5rem;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    transform: translate(275%, 0%);
+}

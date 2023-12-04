@@ -1,0 +1,212 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: #181821;
+  }
+
+  h1 {
+    font-family: 'DM Sans', sans-serif;
+    color: #ffffff;
+  }
+  
+  h3 {
+    font-family: 'DM Sans', sans-serif;
+    color: #ffffff;
+  }
+  
+  p {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 13px;
+  }
+  
+
+  .movieContent {
+    margin: 0px 0px 0px 100px;
+  }
+
+  #movieContentLeftBox {
+    width: 400px;
+  }
+
+  .trailerBox {
+    margin: 40px 0px 0px 0px;
+  }
+
+  #window-for-trailer-movie {
+    height: 280px;
+    width: 500px;
+    border: none;
+  }
+
+  .movieContentHeading {
+    margin: 30px 0px 0px 0px;
+  }
+
+  .synopsisContent {
+    margin: 10px 0px 0px 0px;
+    color: #CFCECE;
+    width: 500px;
+  }
+
+  .reviews {
+    display:flex;
+    flex-direction: row;
+  }
+
+  .individualRating {
+    width: 105px;
+    height: 60px;
+    display: grid;
+    grid-template-columns: [startCol] 35px [col2] auto [endCol];
+    grid-template-rows: [startRow] 18px [row2] auto [endRow];
+    margin: 10px 0px 0px 0px;
+  }
+
+  .reviewType {
+    color: #CFCECE;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    width: 105px;
+  }
+
+  .star {
+    height: 30px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin: 18px 0px 0px 0px;
+  }
+
+  .tomato {
+    height: 30px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin: 18px 0px 0px 0px;
+  }
+
+  .ratingNumber {
+    color: #FFFFFF;
+    font-size: 20px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding: 5px 0px 0px 0px;
+  }
+
+  .rightContentBox {
+    background-color: #901434;
+    height: 1200px;
+    width: 350px;
+    padding-bottom: 100px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-family: DM Sans;
+  }
+
+  .overlay {
+    background-color: #D9D9D9;
+    border-radius: 7px;
+    height: 400px;
+    width: 250px;
+    position: absolute;
+    right: 300px;
+    top: 260px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .movieviewMoviePoster {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+  }
+
+  .getTicketsButton {
+    border: none;
+    border-radius: 5px;
+    background: #FFFFFF;
+    color: #BE123C;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    height: 50px;
+    width: 300px;
+    position: absolute;
+    z-index: 5;
+  }
+
+  .getTicketsButton:hover {
+    background: #d7d7d7;
+    color:#BE123C;
+    cursor: pointer;
+  }
+
+  .getTicketsButton:active {
+    background: #d7d7d7;
+  }
+
+  .rightContent {
+    position: absolute;
+    right: 75px;
+    top: 250px;
+    width: 200px;
+    font-family: DM Sans;
+  }
+
+  .movieDirectorHeading {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 30px 0px 10px 0px;
+  }
+
+  .actorBoxLayout {
+    display: flex;
+    align-items: center;
+  }
+
+  .actorBox {
+    height: 50px;
+    width: 240px;
+    background-color: #B8616B;
+    margin: 12px 0px 12px 0px;
+  }
+
+  .actorPhotoBox {
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+  }
+
+  .actorPhoto {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+  }
+
+  .actorName {
+    padding: 0px 0px 0px 10px;
+  }
+
+
+  
+
+
+
+
+

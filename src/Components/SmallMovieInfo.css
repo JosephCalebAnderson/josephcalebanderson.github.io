@@ -1,0 +1,55 @@
+.small-movieInfo {
+    margin: auto;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.small-moviePoster {
+    height: 200px;
+    align-self: center;
+}
+
+.small-movieDetails {
+    width: 500px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .small-movieDetailsItem {
+    margin: 20px 15px 0px 15px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+  }
+
+  .small-movieDetailsItem:first-child {
+    border: 1.5px solid #FFF;
+    border-radius: 2px;
+    padding: 0px 5px 0px 5px;
+  }
+  
+  .small-movieViewLine {
+    width: 300px;
+    height: 1px;
+    background-color: #FFFFFF;
+    align-self: center;
+    margin: 10px 0px 0px 0px;
+  }
+
+  .small-movieTitle {
+    color: #FFFFFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1.28px;
+    margin: 10px 0px 0px 0px;
+    align-self: center;
+  }
+
+  .small-movieShowtime {
+    font-family: 'DM Sans', sans-serif;
+    margin: 5px 0px 10px 0px;
+    color: #CFCECE;
+    align-self: center;
+  }

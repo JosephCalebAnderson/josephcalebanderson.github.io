@@ -1,0 +1,119 @@
+.manageMoviesMainTitle {
+  position: absolute;
+  left: 42%;
+}
+
+
+.adminShowings {
+    height: 105px;
+    margin-left: 60px;
+    margin-top: 50px;
+    width: 400px
+  }
+
+  .admin-grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px 0px 50px 0px;
+    align-self: center;
+    justify-content: center;
+    gap: 60px;
+  }
+
+  .movieImageAdmin {
+    height: 350px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .adminMovieOverview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #181821;
+    justify-content: center;
+  }
+
+  .movieTitleDivAdmin {
+    margin: 10px 0px 10px 0px;
+    width: 300px;
+  }
+
+  .adminShowingsButton {
+    color: #ffffff;
+    background-color: #181821;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    border: none;
+    margin-top: 20px;
+  }
+
+  .adminShowingsButton:first-of-type {
+    border-bottom: 2px solid white;
+    font-weight: bold;
+  }
+
+  .adminShowingsButton:hover {
+    cursor: pointer;
+  }
+
+  .buttonContainerAdmin {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .adminEditMovie, .adminEditShowings {
+    width: 45%;
+    margin-bottom: 10px;
+  }
+
+  .adminDeleteMovie {
+    width: 45%;
+  }
+
+  .adminEditMovie, .adminEditShowings, .adminDeleteMovie {
+    background-color: #BE123C;
+    font-family: DM Sans;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.2s;
+  }
+
+  .adminEditMovie:hover, .adminEditShowings:hover, .adminDeleteMovie:hover {
+    background: #FF3E63;
+  }
+
+  .adminEditMovie:active, .adminEditShowings:active, .adminDeleteMovie:active {
+    background: #8A0B2A;
+  }
+
+  .adminAddNewMovieButton {
+    background-color: #BE123C;
+    font-family: DM Sans;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0px 0px 100px 0px;
+  }
+
+  .adminAddNewMovieButton:hover {
+    background: #FF3E63;
+  }
+
+  .adminAddNewMovieButton:active {
+    background: #8A0B2A;
+  }

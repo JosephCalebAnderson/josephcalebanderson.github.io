@@ -1,0 +1,324 @@
+
+
+.reviewOrderTitle {
+    margin: auto;
+    width: 860px;
+  }
+  
+  .orderPageTitle {
+    margin-bottom: 30px;
+  }
+
+  .orderContent {
+    display: flex;
+    flex-wrap: row;
+    justify-content: center;
+    margin: 0px 0px 100px 0px;
+  }
+
+  .errorMessageOrder {
+    margin: 10px 0px 0px 0px;
+    padding: 5px;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+  }
+
+  .leftOrderContent {
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    width: 500px;
+  }
+
+  .order-sectionHeader {
+    color: #FFFFFF;
+    font-size: 18px;
+    width: 400px;
+    margin-left: auto;
+    padding: 20px 0px 10px 0px;
+  }
+
+  #orderLabel {
+    color: #CFCECE;
+    font-size: 14px;
+    text-align: start;
+    width: 400px;
+    margin-left: auto;
+    padding: 10px 0px 10px 0px;
+  }
+
+  .order-input-field {
+    color: #CFCECE;
+    background-color: #181821;
+    border: 1px solid #CFCECE;
+    border-radius: 5px;
+    width: 395px;
+    height: 28px;
+    margin-left: auto;
+    font-size: 14px;
+    padding: 0px 0px 0px 5px;
+  }
+
+  .order-input-field:focus {
+      color: #CFCECE;
+  }
+
+  .twoInputs {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    margin-left: auto;
+  }
+
+  .leftInput {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rightInput {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+  }
+
+  #smallLabel {
+    color: #CFCECE;
+    font-size: 14px;
+    padding: 10px 0px 10px 0px;
+    width: 150px;
+    margin-left: auto;
+  }
+
+  #small-input-field {
+    color: #CFCECE;
+    background-color: #181821;
+    border: 1px solid #CFCECE;
+    border-radius: 5px;
+    width: 150px;
+    height: 28px;
+    margin-left: auto;
+    font-size: 14px;
+    padding: 0px 0px 0px 5px;
+  }
+
+  .smallParagraph {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 11px;
+    width: 400px;
+    margin-left: auto;
+    padding: 5px 0px 0px 0px;
+  }
+
+  .rightOrderContent {
+    display: flex;
+    flex-wrap: column;
+    width: 500px;
+  }
+
+  .rightOrderBox {
+    background-color: #323239;
+    width: 500px;
+    margin: 0px 0px 56px 30px;
+    padding: 40px 0px 40px 0px;
+  }
+
+  .summarySection {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    width: 400px;
+    margin-left: auto;
+    padding: 5px 0px 5px 0px;
+  }
+
+  .itemAndPrice {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    margin-left: auto;
+  }
+
+  .withPrice {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    width: 200px;
+    vertical-align: center;
+    margin: 3px 0px 5px 0px;
+  }
+
+  .price {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    width: 120px;
+    text-align: right;
+  }
+
+  .totalWithPrice {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    width: 200px;
+    margin: 3px 0px 5px 0px;
+  }
+
+  .totalPrice {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold ;
+    width: 120px;
+    text-align: right;
+  }
+  
+  .summaryContent {
+    color: #CFCECE;
+    font-size: 14px;
+    width: 400px;
+    margin-left: auto;
+    padding: 0px 0px 5px 0px;
+  }
+
+  .orderLine {
+    background-color: #CFCECE;
+    height: 1px;
+    width: 330px;
+    margin: 20px auto 20px auto;
+  }
+
+  .space {
+    height: 10px;
+  }
+
+  .promo {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 20px 0px 0px 70px;
+    width: 400px;
+  }
+
+  #promoLabel {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    width: 300px;
+  }
+
+  .promoInput {
+    background-color: #323239;
+    border: 1px solid #CFCECE;
+    border-radius: 5px; 
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    width: 150px;
+    padding: 5px 0px 5px 5px;
+    margin: 10px 0px 0px 0px;
+  }
+
+  .applyPromoButton {
+    width: 60px;
+    height: 26px;
+    border-radius: 5px;
+    background: #BE123C;
+    border: none;
+    color: #FFFFFF;
+    margin: 12px 0px 0px 10px;
+  }
+
+  .applyPromoButton:hover {
+    background-color: #FF3E63;
+  }
+
+  .appliedPromotionDetails {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin: 12px 0px 0px 0px;
+  }
+
+  .purchaseButton {
+    border: none;
+    border-radius: 5px;
+    background: #BE123C;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    height: 28px;
+    width: 220px;
+    margin: 40px 0px 40px 120px;
+  }
+
+  .purchaseButton:hover {
+    background-color: #FF3E63;
+  }
+
+  .creditCardContainer {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px 0px 0px 100px;
+    overflow: auto;
+    white-space: nowrap; 
+  }
+
+  .creditCard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 146px;
+    height: 84px;
+    border-radius: 5px;
+    background: linear-gradient(256deg, #676666 17.69%, #959595 92.66%);
+    margin: 0px 12px 10px 0px;
+  }
+
+  .creditCard:hover {
+    border: 1.5px solid #FFFFFF;
+  }
+
+  .lastfourdigits {
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 0px;
+    height: 16px;
+  }
+
+  .cardchip {
+    height: 13px;
+    width: 22px;
+    margin: 10px 50px 0px 10px;
+  }
+
+  .creditcarddots {
+    height: 4px;
+    width: 82px;
+    margin: 6px 4px 0px 10px;
+  }
+
+  .nameoncreditcard {
+    font-family: 'Inconsolata', monospace;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin: 0px 0px 0px 10px;
+  }
+
+  .selectedCard {
+    background: linear-gradient(256deg, #7E001C 17.69%, #E11D48 94.26%);
+
+  }
+
+
+
+
+  
+  

@@ -1,0 +1,129 @@
+.login-auth-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #FFF;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.36px;
+  gap: 0.7rem;
+  
+}
+
+.login-form-header {
+  color: #FFF;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 3000;
+  line-height: 24px; 
+  font-family: 'DM Sans', sans-serif;
+  margin-bottom: 20px;
+  
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 10px;
+}
+
+.login-input-field {
+  background-color: transparent;
+  color: #CFCECE;
+  border-radius: 5px;
+  caret-color: white;
+  border: 1px solid #ccc;
+  width: 290px;
+  height: 30px;
+  padding-left: 10px;
+}
+
+.login-label {
+  text-align: left;
+  width: 150px;
+}
+
+.login-button {
+  border-radius: 5px;
+  background: #BE123C;
+  border: none;
+  width: 305px;
+  height: 32px;
+  margin: 20px 0px 0px 0px;
+  transition: background 0.2s;
+}
+
+.login-button:hover {
+  background: #FF3E63; 
+}
+
+.login-button:active {
+  background:#8A0B2A; 
+}
+
+.login-before-switch-text {
+  font-size: 12px;
+  color:#CFCECE;
+}
+
+.login-switch-link {
+  text-decoration: underline;
+  font-family: DM Sans;
+}
+
+.login-switch-form-text {
+  font-family: DM Sans;
+  font-size: 16px;
+  color:#FFFFFF;
+}
+
+.login-button-text {
+color: #FFF;
+text-decoration: none;
+font-family: 'DM Sans', sans-serif;
+font-size: 17px;
+font-style: normal;
+font-weight: bold;
+letter-spacing: 0.36px;
+}
+
+.login-input-field::placeholder {
+font-family: DM Sans;
+}
+
+.login-error-message {
+  top: 100%;
+  left: 0;
+  width: 11%;
+  padding: 0.5rem;
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  transform: translate(360%, 350%);
+
+}
+
+.forgotpasslink {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  font-size: 13px;
+  color: #FFFFFF;
+  margin: 0px;
+  text-align: right;
+  width: 110px
+}
+
+.resetalign-container {
+  display: flex;
+  justify-content: space-between;
+}

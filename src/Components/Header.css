@@ -1,0 +1,76 @@
+
+/* Header Content */
+
+  .header {
+    height: 75px;
+    width: 100%;
+    background-color: #323239;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;    
+    top: 0;
+    z-index: 12;
+  }
+
+  .head1, .head2, .head3 {
+    flex: 1
+  }
+
+  .head1 {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .headerLogo {
+    height: 44px; 
+    align-self: center;
+    padding: 15px;
+  }
+
+  .webName {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    align-self: center;
+  }
+
+  .head2{
+    align-self: center;
+  }
+
+  .head3 {
+    width: 300px;
+    align-self: center;
+    display:flex;
+    justify-content: flex-end;
+    padding: 15px;
+  }
+
+  .hello {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    text-align: right;
+    padding: 15px;
+  }
+
+  .menuButton {
+    background: none;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+    border: none;
+    align-self: center;
+    cursor: pointer;
+    margin: 0px 5px 0px 0px;
+  }
+
+  .menuButtonImage {
+    width: 36px;
+    height: 36px;
+  }
+
+

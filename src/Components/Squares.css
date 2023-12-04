@@ -1,0 +1,64 @@
+.square {
+    height: 140px;
+    position: absolute;
+    z-index: -1;
+  }
+  
+
+  /* Bottom left squares 1-6 */
+  .square1 {
+    bottom: 270px;
+    left: -95px;
+  }
+  
+  .square2 {
+    bottom: 270px;
+    left: 85px;
+  }
+  
+  .square3 {
+    bottom: 90px;
+    left: 85px;
+  }
+
+  .square4 {
+    bottom: 90px;
+    left: 265px;
+  }
+
+  .square5 {
+    bottom: -90px;
+    left: 265px;
+  }
+
+  .square6 {
+    bottom: -90px;
+    left: 445px;
+  }
+
+  /* Top right squares 7-11 */
+
+  .square7 {
+    top: -35px;
+    right: 335px;
+  }
+
+  .square8 {
+    top: -35px;
+    right: 155px;
+  }
+
+  .square9 {
+    top: 145px;
+    right: 155px;
+  }
+
+  .square10 {
+    top: 145px;
+    right: -25px;
+  }
+
+  .square11 {
+    top: 325px;
+    right: -25px;
+  }
